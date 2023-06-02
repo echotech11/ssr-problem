@@ -1,4 +1,12 @@
-# App
+# SSR ISSUE
+
+npm run dev:ssr
+navigate to localhost:4200
+CTRL+U in browser will show SSR retrieved the data.
+Comment out line 3 in app.component.html
+navigate to localhost:4200/test
+CTRL+U in browser will show SSR did not retrieve the data.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
